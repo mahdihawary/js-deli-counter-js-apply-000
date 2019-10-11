@@ -4,6 +4,19 @@ function takeANumber(line, name)
   line.push(name);
   return "Welcome, " + name + ". You are number " + place + " in line.";
 }
+var position= 0;
+function takeanumber(line)
+{
+  
+  
+  position++; 
+  
+  line.push(position);
+  
+  return 
+  
+}
+
 
 function nowServing(katzDeliLine){
 if (!katzDeliLine.length)  
